@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Zero-config setup
+To get started, run the following in the root of an existing Angular project:
+
+`npx sb@next init`
+
+This detects the project type, installs @storybook/angular, and adds some sample files to demonstrate the basics of Storybook. Running yarn storybook gives you the following zero-config setup:
